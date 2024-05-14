@@ -1,0 +1,26 @@
+.container {
+    display: grid;
+    margin: 1.6rem;
+    width: fit-content;
+    .cell {
+        height: 4rem;
+        width: 4rem;
+        border: 0.1rem solid #999;
+        background-color: #f8f8f8;
+    }
+}
+.options {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    border: 0.1rem solid #888;
+    padding: 1.6rem;
+    box-sizing: border-box;
+    margin-top: 2.4rem;
+    border-radius: 0.4rem;
+    .option {
+       padding: 0.8rem;
+       margin: 1.6rem;
+       cursor: pointer;
+    }
+}

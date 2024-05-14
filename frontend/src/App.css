@@ -1,0 +1,9 @@
+.App {
+  box-sizing: border-box;
+  padding: 1.6rem;
+  font-size: 1.6rem;
+}
+
+html {
+  font-size: 62.5%;
+}

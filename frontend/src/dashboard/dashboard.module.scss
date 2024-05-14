@@ -1,0 +1,50 @@
+.button {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2.4rem 0;
+    .error{
+        font-size: 1.2rem;
+        color: red;
+        margin-bottom: 0.8rem;
+    }
+.submit {
+    padding: 0.8rem;
+    width: 40%;
+    box-sizing: border-box;
+    color: white;
+    background-color: rgb(160, 233, 237);
+    border: 0.1rem solid rgb(160, 233, 237);
+    border-radius: 0.4rem;
+    cursor: pointer;
+}
+}
+.ansContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.correct {
+    font-size: 3.2rem;
+    color: rgb(30, 237, 140);
+    font-weight: 600;
+}
+.inCorrect {
+    font-size: 3.2rem;
+    color: red;
+    font-weight: 600;
+}
+.retry {
+    margin-top: 1.6rem;
+    padding: 0.8rem;
+    background-color: rgb(137, 235, 240);
+    color: white;
+    border: 0.1rem solid rgb(160, 233, 237);
+    border-radius: 0.4rem;
+    cursor: pointer;
+}
